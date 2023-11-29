@@ -1,112 +1,54 @@
-import { GrInstagram } from "react-icons/gr";
+/* eslint-disable react/no-unescaped-entities */
+import { FaTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="mx-auto mb-8 flex w-full max-w-2xl flex-col items-start justify-center px-4 md:px-0">
-        <hr className="border-1 mb-8 w-full border-gray-200 dark:border-gray-800" />
-        <div className="mb-8 flex w-full items-center gap-3 space-x-0 sm:space-x-2 md:gap-0">
-          <div className="flex items-center gap-3"></div>
-        </div>
-        <div className="grid w-full max-w-2xl grid-cols-1 gap-4 sm:grid-cols-3">
-          <div className="flex flex-col items-start space-y-4">
-             <a
-              className="flex items-center text-gray-500 transition-colors hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-200/80"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/anilseervi/"
-            >
-              LinkedIn
-              <svg
-                className="ml-1 inline-block h-4 w-4"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                ></path>
-              </svg>
+    <footer className="p-6 border-t-2  ">
+      <div className="flex flex-col items-center">
+        <p className="text-lg font-semibold">
+          "Coding's tough, but it paves the way to my ambitions."
+        </p>
+        <p>- Lokesh Thalathoti</p>
+        <ul className="flex space-x-4 mt-4">
+          <li>
+            <a href="https://twitter.com/Lokesh8919">
+              <FaTwitter size={20} />
             </a>
+          </li>
+          <li>
             <a
-              className="flex items-center text-gray-500 transition-colors hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-200/80"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://instagram.com/linaseervi"
+              href="https://github.com/1806loki"
+              className="hover:text-gray-300"
             >
-              Instagram
-              <svg
-                className="ml-1 inline-block h-4 w-4"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                ></path>
-              </svg>
+              <FaGithub size={20} />
             </a>
-          </div>
-          <div className="flex flex-col Nameitems-start space-y-4">
-            <div className="flex flex-col items-start space-y-4">
-              <a
-                className="flex items-center text-gray-500 transition-colors hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-200/80"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/anilseervi/"
-              >
-                LinkedIn
-                <svg
-                  className="ml-1 inline-block h-4 w-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  ></path>
-                </svg>
-              </a>
-              <a
-                className="flex items-center text-gray-500 transition-colors hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-200/80"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://instagram.com/linaseervi"
-              >
-                Instagram
-                <svg
-                  className="ml-1 inline-block h-4 w-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-            <div className="flex flex-col Nameitems-start space-y-4"></div>
-          </div>
-        </div>
-      </footer>
-    </div>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/lokesh-thalathoti-14a3491b4/"
+              className="hover:text-gray-300"
+            >
+              <FaLinkedin size={20} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/lokesh_1805/"
+              className="hover:text-gray-300"
+            >
+              <FaInstagram size={20} />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:thalathotilokesh@gmail.com" className="hover:text-gray-300">
+              <BiLogoGmail size={20} />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p className="mt-4 text-right text-sm">Created by ©️ Loki with Love ❤️</p>
+    </footer>
   );
 };
 

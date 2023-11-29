@@ -7,13 +7,13 @@ import Footer from "./pages/Footer";
 
 function App() {
   return (
-    <div className="h-screen w-2/5 m-8 mx-auto">
+    <div className="h-screen w-full  md:w-2/5 m-8 mx-auto sm:p-8">
       <Navbar />
       <Intro />
       <Skills />
       <Projects />
       <AboutMe />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

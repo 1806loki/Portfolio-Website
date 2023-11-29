@@ -2,9 +2,9 @@
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <div className="col-span-2 py-6 md:col-span-2 lg:col-span-3">
-        <div className="text-2xl font-medium mt-2 text-zinc-200 mb-5">
+        <div className="text-3xl font-medium mt-2 text-zinc-200 mb-5">
           What I know
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">

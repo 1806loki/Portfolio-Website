@@ -10,8 +10,9 @@ const Intro = () => {
             Full Stack Developer
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Designing web with code for faster and better accessibility.
-            Sometimes also does some open-sourcery stuff.
+            Results-oriented Full Stack Developer with a passion for
+            problem-solving, a keen eye for detail, and a commitment to
+            delivering high-quality solutions.
           </p>
         </div>
       </section>
