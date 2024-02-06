@@ -7,9 +7,9 @@ const Footer = () => {
     <footer className="p-6 border-t-2  ">
       <div className="flex flex-col items-center">
         <p className="text-lg font-semibold">
-          "Coding's tough, but it paves the way to my ambitions."
+          "I turn website dreams into digital realities – if it's imaginable, it's achievable in my hands"
         </p>
-        <p>- Lokesh Thalathoti</p>
+        <p>- An Full Stack Alchemist</p>
         <ul className="flex space-x-4 mt-4">
           <li>
             <a href="https://twitter.com/Lokesh8919">
